@@ -1,10 +1,10 @@
 html {
-  background-color: ;
   font-family: 'Merriweather', serif;
 }
 
-caption {
-  text-align: center;
+table {
+  table-layout: fixed;
+  width: 100%;
 }
 
 .grey {
@@ -35,15 +35,15 @@ caption {
   border-radius: 8px;
 }
 
-tbody > td {
-  vertical-align: top;
-  text-align: right;
-  min-width: 30em;
+th, td {
+  border: 1px solid #ccc;
 }
 
-p {
-  margin: .25rem;
+td {
+  height: 10em;
+  vertical-align: top;
+}
+
+p, a {
   vertical-align: inherit;
-  text-align: left;
-  padding: .25rem;
 }
